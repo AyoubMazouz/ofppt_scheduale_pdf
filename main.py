@@ -3,11 +3,6 @@ from fpdf import FPDF, XPos, YPos
 import math
 
 
-# TODO:
-# fix cell sizes
-# fix borders
-# generate all files at once
-
 # Records data structure:
 # [
 #   Single record:
@@ -48,7 +43,8 @@ DARK_COLOR = [12, 12, 12]
 
 def get_records():
     print("Start extracting records from Excel sheet")
-
+    
+    # Pdf file name.
     records = p.get_array(file_name="s2.xlsm")
 
     print("Record extracted successfully")
