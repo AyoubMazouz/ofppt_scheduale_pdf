@@ -14,7 +14,8 @@ import math
 #   {
 #       details:
 #       {
-#           title.
+#           groupe.
+#           total_hours.
 #       }
 #       record:
 #       [
@@ -40,16 +41,17 @@ import math
 # Constants:
 GIT_REPO = "https://github.com/AyoubMazouz/ofppt_scheduale_pdf.git"
 LABELS = ["prof", "mod", "room"]
-DAYS = ["lundi", "Mardi", "Mercredi", "Jeudi", "Vendredi", "Samedi"]
-ACCENT_COLOR = [49, 157, 160]
+DAYS = ["Lundi", "Mardi", "Mercredi", "Jeudi", "Vendredi", "Samedi"]
+ACCENT_COLOR = [37, 49, 109]
 LIGHT_COLOR = [238, 238, 238]
 DARK_COLOR = [12, 12, 12]
 
 
 def get_records():
     print("Start extracting records from Excel sheet")
-
-    records = p.get_array(file_name="s2.xlsm")
+	
+    # Pdf file name.
+    records = p.get_array(file_name="s3.xlsm")
 
     print("Record extracted successfully")
     print("Start processing records")
