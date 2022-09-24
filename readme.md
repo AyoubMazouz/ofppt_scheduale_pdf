@@ -13,6 +13,9 @@ Change directory to ofppt_scheduale_pdf.
 Install requirements.
 `pip install -r requirements`
 
+Before running the script you must convert xlsm to xlsx modern format using this website:
+`https://cloudconvert.com`
+
 Make sure you have the input file (e.g S2 EMPLOI ISFO 12-09-22.xlsm) in the same directory or else the program will fail.
 Run the script.
 `python main.py`

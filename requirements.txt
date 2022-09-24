@@ -1,3 +1,4 @@
 pyexcel
+pyexcel-xls
 pyexcel-xlsx
 fpdf2
