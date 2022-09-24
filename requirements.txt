@@ -1,4 +1,9 @@
 pyexcel
+<<<<<<< HEAD
 pyexcel-xls
 pyexcel-xlsx
 fpdf2
+=======
+pyexcel-xlsx
+fpdf2
+>>>>>>> 9ce2b12ea0037ff680b8150c109d9e5d33207027
