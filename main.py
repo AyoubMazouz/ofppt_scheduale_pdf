@@ -44,15 +44,9 @@ DARK_COLOR = [12, 12, 12]
 
 def get_records():
     print("Start extracting records from Excel sheet")
-<<<<<<< HEAD
 
     # Pdf file name.
-    records = p.get_array(file_name="s4.xlsx")
-=======
-    
-    # Pdf file name.
-    records = p.get_array(file_name="s2.xlsm")
->>>>>>> 9ce2b12ea0037ff680b8150c109d9e5d33207027
+    records = p.get_array(file_name="s6.xlsx")
 
     print("Record extracted successfully")
     print("Start processing records")
