@@ -46,7 +46,7 @@ def get_records():
     print("Start extracting records from Excel sheet")
 
     # Pdf file name.
-    records = p.get_array(file_name="s6.xlsx")
+    records = p.get_array(file_name="s7.xls")
 
     print("Record extracted successfully")
     print("Start processing records")
