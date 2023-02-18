@@ -37,7 +37,7 @@ import math
 GIT_REPO = "https://github.com/AyoubMazouz/ofppt_scheduale_pdf.git"
 LABELS = ["prof", "mod", "room"]
 DAYS = ["Lundi", "Mardi", "Mercredi", "Jeudi", "Vendredi", "Samedi"]
-ACCENT_COLOR = [37, 49, 109]
+ACCENT_COLOR = [218, 0, 55]
 LIGHT_COLOR = [238, 238, 238]
 DARK_COLOR = [12, 12, 12]
 
@@ -46,7 +46,7 @@ def get_records():
     print("Start extracting records from Excel sheet")
 
     # Pdf file name.
-    records = p.get_array(file_name="s7.xls")
+    records = p.get_array(file_name="input.xls")
 
     print("Record extracted successfully")
     print("Start processing records")
